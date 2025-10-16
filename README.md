@@ -9,3 +9,16 @@
 `hugo build`
 
 The servable files will be in the `public` dir
+
+## Project structure
+[Explanation of folder structure](https://gohugo.io/getting-started/directory-structure/)
+
+
+```
++
+├── content/
+│   ├── de-DE/  <-- German content
+│   └── en-US/  <-- English content
+...
+
+```
