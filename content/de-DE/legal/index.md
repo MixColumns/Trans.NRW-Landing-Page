@@ -1,5 +1,5 @@
 +++
-date = '2025-10-16T17:48:30+02:00'
+date = '2025-10-16T12:48:30+02:00'
 draft = false
 title = 'Legal'
 type = 'single'
