@@ -1,0 +1,9 @@
+<a href="{{ .Destination | safeURL }}" class="underline decoration-dotted"
+   {{- with .Title }} title="{{ . }}"{{ end -}}
+   {{- $u := urls.Parse .Destination -}}
+   {{- if eq $u.Host "fops.zone" }} {{ else }} target="_blank" {{end -}}
+>
+    {{- with .Text }}{{ . }}{{ end -}}
+
+</a>
+{{- /* chomp trailing newline */ -}}

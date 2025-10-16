@@ -1,0 +1,41 @@
+baseURL = 'https://trans.nrw/'
+title = 'identiT⚧️'
+enableEmoji = true
+disableKinds = ['taxonomy', 'section']
+
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'
+
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = true
+[languages]
+    [languages.de-DE]
+        languageCode = 'de-DE'
+        contentDir = 'content/de-DE'
+        languageName = 'Deutsch'
+        weight = 1
+    [languages.en-US]
+        languageCode = 'en-US'
+        contentDir = 'content/en-US'
+        languageName = 'English'
+        weight = 2
+
+[params]
+  [params.identiT]
+      [params.identiT.Forum]
+          URL = 'https://forum.trans.nrw'

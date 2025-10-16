@@ -1,0 +1,12 @@
+
+{{ define "main" }}
+<header>
+    <h1 class="inline font-bold text-3xl text-center md:text-left">{{.Title}}</h1>
+    {{ if .Params.repo  }}
+        <a class="text-xs underline decoration-dotted" href="{{.Params.repo}}" target="_blank">
+            <img class="inline w-[32px] h-[32px]" src="/images/emojis/neofox_laptop_owo.png" title="source code" alt="Neofox Laptop owo"/>
+        </a>
+    {{ end }}
+</header>
+  {{ .Content }}
+{{ end }}
