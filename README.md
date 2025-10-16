@@ -7,3 +7,5 @@
 ## Building the project
 
 `hugo build`
+
+The servable files will be in the `public` dir
