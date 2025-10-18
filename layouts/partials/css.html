@@ -7,7 +7,9 @@
         {{ with . | css.TailwindCSS $opts }}
             {{ if hugo.IsProduction }}
                 {{ with . | fingerprint }}
-                    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+					<!-- TODO: Add back integrity check, seems to break due to Upload Script changing the file hash-->
+                    <!--<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">-->
+					<link rel="stylesheet" href="{{ .RelPermalink }}" crossorigin="anonymous">
                 {{ end }}
             {{ else }}
                 <link rel="stylesheet" href="{{ .RelPermalink }}">
