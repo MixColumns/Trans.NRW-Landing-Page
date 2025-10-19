@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
+
+.markdown {
+    p {
+        padding-top: 2ex;
+    }
+
+    li {
+        list-style: inside;
+    }
+}
