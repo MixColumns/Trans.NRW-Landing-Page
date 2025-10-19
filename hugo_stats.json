@@ -12,7 +12,6 @@
       "h3",
       "h4",
       "head",
-      "header",
       "html",
       "img",
       "li",
@@ -24,6 +23,7 @@
       "script",
       "section",
       "strong",
+      "time",
       "title",
       "ul"
     ],
@@ -71,7 +71,6 @@
       "shrink",
       "sm:mx-30",
       "sm:px-30",
-      "text-3xl",
       "text-[1.2rem]",
       "text-[1.6rem]",
       "text-[1rem]",

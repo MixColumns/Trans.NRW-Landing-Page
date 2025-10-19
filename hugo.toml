@@ -2,6 +2,7 @@ baseURL = 'https://trans.nrw/'
 title = 'identiT⚧️'
 enableEmoji = true
 disableKinds = ['taxonomy', 'section']
+theme = 'transnrw'
 
 [build]
   [build.buildStats]
