@@ -367,8 +367,7 @@ abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art.
 im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist
 jederzeit widerrufbar.
 
-Quelle:
-https://www.e-recht24.de
+Quelle: [eRecht24](https://www.e-recht24.de/)
 
 
 # Zuschreibungen
@@ -383,5 +382,4 @@ Diese Instanz nutzt 3rd-Party Emojis die unter der [Queer Opinionated License v1
  - [emojiflags](https://gitlab.com/Avris/EmojiFlags) von [@Avris@mastodon.online](https://mastodon.online/@Avris)
 
 Alle Emojis wurden für den Gebrauch im Forum auf 24px*24px herunter skaliert.
-
 
