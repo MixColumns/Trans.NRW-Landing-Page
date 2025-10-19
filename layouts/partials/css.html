@@ -7,7 +7,10 @@
         {{ with . | css.TailwindCSS $opts }}
             {{ if hugo.IsProduction }}
                 {{ with . | fingerprint "sha512" }}
-                    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+<!--
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+-->
+<link rel="stylesheet" href="{{ .RelPermalink }}" crossorigin="anonymous">
                 {{ end }}
             {{ else }}
                 <link rel="stylesheet" href="{{ .RelPermalink }}">
