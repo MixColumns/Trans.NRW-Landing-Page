@@ -369,7 +369,6 @@ jederzeit widerrufbar.
 
 Quelle: [eRecht24](https://www.e-recht24.de/)
 
-
 # Zuschreibungen
 Diese Instanz nutzt 3rd-Party Emojis die unter der [CC-BY-NC-SA-4.0](https://spdx.org/licenses/CC-BY-NC-SA-4.0.html)-Lizenz verfügbar sind:
  - [neofox](https://volpeon.ink/emojis/neofox/) von [@volpeon@icy.wyvern.rip](https://icy.wyvern.rip/@volpeon)
