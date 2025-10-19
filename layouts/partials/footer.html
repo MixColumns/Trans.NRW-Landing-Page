@@ -9,9 +9,9 @@
     <div>
         <h2 class="font-bold text-lg pt-[1ex] md:pt-0">{{ T "footer.legals" }}</h2>
         <ul id="legal stuff">
-            <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#imprint">{{ T "footer.impressum" }}</a></li>
-            <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#privacy">{{ T "footer.privacy" }}</a></li>
-            <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#attributions">{{ T "footer.attributions" }}</a></li>
+            <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#{{ strings.ToLower (T "footer.impressum") }}">{{ T "footer.impressum" }}</a></li>
+            <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#{{ strings.ToLower (T "footer.privacy") }}">{{ T "footer.privacy" }}</a></li>
+            <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#{{ strings.ToLower (T "footer.attributions") }}">{{ T "footer.attributions" }}</a></li>
         </ul>
     </div>
     {{ end }}
