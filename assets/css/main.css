@@ -7,6 +7,7 @@
     }
 
     li {
-        list-style: inside;
+        list-style: disc;
+        margin-left: 2ex;
     }
 }
