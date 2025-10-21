@@ -379,6 +379,9 @@ Diese Instanz nutzt 3rd-Party Emojis die unter der [CC-BY-NC-SA-4.0](https://spd
 
 Diese Instanz nutzt 3rd-Party Emojis die unter der [Queer Opinionated License v1.1](https://spdx.org/licenses/CC-BY-NC-SA-4.0.html)-Lizenz verfügbar sind:
  - [emojiflags](https://gitlab.com/Avris/EmojiFlags) von [@Avris@mastodon.online](https://mastodon.online/@Avris)
+ 
+Diese Instanz nutzt Logos die unter der [MIT](https://spdx.org/licenses/MIT.html)-Lizenz verfügbar sind:
+ - [MyBB](https://github.com/mybb/mybb-website-theme/)
 
 Alle Emojis wurden für den Gebrauch im Forum auf 24px*24px herunter skaliert.
 
