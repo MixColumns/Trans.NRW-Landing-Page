@@ -377,7 +377,7 @@ Diese Instanz nutzt 3rd-Party Emojis die unter der [CC-BY-NC-SA-4.0](https://spd
  - [neobot](https://github.com/SymTrkl/emoji) von [@SymTrkl@anarres.family](https://anarres.family/@SymTrkl)
  - [neopossum](https://codeberg.org/EeveeEuphoria/neopossum-emojis) von [@EeveeEuphoria@social.translunar.academy](https://social.translunar.academy/users/EeveeEuphoria)
 
-Diese Instanz nutzt 3rd-Party Emojis die unter der [Queer Opinionated License v1.1](https://spdx.org/licenses/CC-BY-NC-SA-4.0.html)-Lizenz verfügbar sind:
+Diese Instanz nutzt 3rd-Party Emojis die unter der [Queer Opinionated License v1.1](https://oql.avris.it/license/v1.1)-Lizenz verfügbar sind:
  - [emojiflags](https://gitlab.com/Avris/EmojiFlags) von [@Avris@mastodon.online](https://mastodon.online/@Avris)
  
 Diese Instanz nutzt Logos die unter der [MIT](https://spdx.org/licenses/MIT.html)-Lizenz verfügbar sind:
