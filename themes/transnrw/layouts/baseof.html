@@ -15,16 +15,18 @@
         </script>
 
     </head>
-    <body class="bg-zinc-800 text-sky-200 h-screen font-mono">
+    <body class="m-5 bg-zinc-800 text-sky-200 font-mono" lang="de">
+
+        {{ partial "logo.html" . }}
         {{ partial "navigation.html" . }}
 
-        <main class="md:self-center grow px-5 sm:px-30 md:px-5 lg:px-30 xl:px-50 2xl:px-100 py-5 max-w-screen">
+        <main class="">
                 {{ block "main" . }}
                 {{ end }}
         </main>
 
-        <footer>
-            {{ partial "footer.html" . }}
-        </footer>
+        {{ partial "socials.html" . }}
+
+        {{ partial "footer.html" . }}
     </body>
 </html>
