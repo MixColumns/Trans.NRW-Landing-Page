@@ -1,0 +1,19 @@
+<footer class="mx-5 sm:mx-30 md:mx-5 lg:mx-30 xl:mx-50 2xl:mx-100 my-5 md:self-center grow text-zinc-500 grid md:grid-cols-2 md:gap-8 content-start">
+    <div>
+        <h2 class="font-bold text-lg">{{ T "footer.links" }}</h2>
+        <ul id="socials">
+            <li class="inline"><a class="underline decoration-dotted" target="_blank" href="{{ .Site.Params.identiT.Forum.URL }}">{{ T "footer.forum" }}</a></li>
+        </ul>
+    </div>
+    {{ with .GetPage "/legal/" }}
+    <div>
+        <h2 class="font-bold text-lg pt-[1ex] md:pt-0">{{ T "footer.legals" }}</h2>
+        <ul id="legal stuff">
+            <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#{{ strings.ToLower (T "footer.impressum") }}">{{ T "footer.impressum" }}</a></li>
+            <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#{{ strings.ToLower (T "footer.privacy") }}">{{ T "footer.privacy" }}</a></li>
+            <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#{{ strings.ToLower (T "footer.attributions") }}">{{ T "footer.attributions" }}</a></li>
+        </ul>
+    </div>
+    {{ end }}
+</footer>
+

@@ -1,0 +1,5 @@
+
+<h{{ .Level }} id="{{ .Anchor }}" class="font-bold  pt-[1.5em] {{- with .Attributes.class }} {{ . }} {{- end }} text-[{{ math.Max 1.0 (math.Mul 2.0 (math.Div (math.Sub 6 .Level) 5.0)) }}rem]">
+    {{- .Text -}}
+</h{{ .Level }}>
+

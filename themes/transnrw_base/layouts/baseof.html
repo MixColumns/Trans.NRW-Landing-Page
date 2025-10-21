@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{partialCached "css.html" . }}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <title>{{ block "title" . }} {{ .Site.Title }} 🦊 {{ end }}</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <script>
+         console.log("▌▘▘▌▘▌▘▘▘▌▌▖▌▌▘▘▖▌▌▖▖▘▖▌▌▖▘▖▖▌▖▌▖▘▘▌▘▌▌▘▘▖▖▌▘▖▘▘▖▖▘▘▘▖▘▖▌▌▘▖▖▌▌▘▖▖▌▖▖▌▌▖▘▌▘▘▖▌▘▖▌▘▌▌▖▘▖▌▖▌▌▖▘▖▘▌▘▘▖▌▖▘▌▖▘");
+        </script>
+
+    </head>
+    <body class="bg-zinc-800 text-sky-200 h-screen font-mono">
+        {{ partial "navigation.html" . }}
+
+        <main class="md:self-center grow px-5 sm:px-30 md:px-5 lg:px-30 xl:px-50 2xl:px-100 py-5 max-w-screen">
+                {{ block "main" . }}
+                {{ end }}
+        </main>
+
+        <footer>
+            {{ partial "footer.html" . }}
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+
+
+<nav class="mx-5 sm:mx-30 md:mx-5 lg:mx-30 xl:mx-50 2xl:mx-100 my-5 md:self-center text-zinc-500 flex">
+
+
+    <button id="home" class="group shrink ">
+        {{ with $.Site.Home }}
+        <a href="{{ .RelPermalink }}">Home</a>
+        {{ end }}
+    </button>
+{{ partial "allLanguages.html" . }}
+</nav>
+
