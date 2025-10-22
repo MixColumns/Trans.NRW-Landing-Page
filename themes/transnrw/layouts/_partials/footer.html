@@ -1,6 +1,7 @@
-<footer class="text-zinc-500">
+<footer>
+    {{ partial "socials.html" . }}
     {{ with .GetPage "/legal/" }}
-    <div>
+    <div class="text-zinc-400">
         <h2 class="font-bold text-lg pt-[1ex] md:pt-0">{{ T "footer.legals" }}</h2>
         <ul id="legal stuff">
             <li class="inline"><a class="underline decoration-dotted" href="{{ .RelPermalink }}#{{ strings.ToLower (T "footer.impressum") }}">{{ T "footer.impressum" }}</a></li>
