@@ -15,12 +15,12 @@
         </script>
 
     </head>
-    <body class="hyphens-auto wrap-break-word m-5 bg-zinc-800 text-sky-200 font-mono">
+    <body class="hyphens-auto wrap-break-word m-5 bg-zinc-800 text-sky-200 font-mono sm:w-3/4 sm:m-auto md:w-auto md:m-5 md:grid md:grid-cols-2 md:gap-3 md:justify-between">
 
         {{ partial "logo.html" . }}
         {{ partial "navigation.html" . }}
 
-        <main class="">
+        <main class="md:order-2 basis-3/5 md:row-span-3">
                 {{ block "main" . }}
                 {{ end }}
         </main>
