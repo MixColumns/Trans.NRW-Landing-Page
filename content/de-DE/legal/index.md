@@ -13,7 +13,7 @@ Im Westenfeld 28
 
 ## Kontakt
 Telefon: (DE) 15757214751  
-E-Mail: Service@ThorgerJansen.de  
+E-Mail: Admin@Trans.NRW  
 
 ## Redaktionell verantwortlich
 Thorger Jansen
@@ -103,7 +103,7 @@ Im Westenfeld 28
 44801 Bochum
 
 Telefon: (DE) 15757214751  
-E-Mail: Service@ThorgerJansen.de  
+E-Mail: Admin@Trans.NRW
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über
 die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)
