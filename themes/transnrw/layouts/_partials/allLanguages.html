@@ -1,11 +1,8 @@
 
 {{ if .IsTranslated }}
-<ul id="language-select" class="group shrink ml-auto">
-    <li>{{ .Site.Language.LanguageName }} </li>
-    {{ range .Translations }}
-    <li class="group-hover:visible invisible">
-        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-    </li>
-    {{ end }}
-</ul>
+
+{{ range .Translations }}
+<a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+{{ end }}
+
 {{ end }}
