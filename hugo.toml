@@ -42,3 +42,17 @@ defaultContentLanguageInSubdir = true
           URL = 'https://forum.trans.nrw'
       [params.identiT.Map]
           URL = 'https://map.trans.nrw'
+      [params.identiT.redaktion]
+          name = 'Thorger Jansen'
+      [params.identiT.privacy]
+          mail = 'admin@trans.nrw'
+          name = 'Thorger Jansen'
+          street = 'Im Westenfeld 28'
+          city = '44801 Bochum'
+          phone = '(DE) 15757214751'
+      [params.identiT.impressum]
+          mail = 'admin@trans.nrw'
+          name = 'Thorger Jansen'
+          street = 'Im Westenfeld 28'
+          city = '44801 Bochum'
+          phone = '(DE) 15757214751'

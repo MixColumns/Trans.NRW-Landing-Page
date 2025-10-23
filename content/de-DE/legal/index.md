@@ -6,17 +6,17 @@ type = 'single'
 +++
 
 # Impressum
-Thorger Jansen  
-Im Westenfeld 28  
-44801 Bochum  
+{{% param "identiT.impressum.name" %}}  
+{{% param "identiT.impressum.street" %}}  
+{{% param "identiT.impressum.city" %}}  
 
 
 ## Kontakt
-Telefon: (DE) 15757214751  
-E-Mail: Admin@Trans.NRW  
+Telefon: {{% param "identiT.impressum.phone" %}}  
+E-Mail: {{% param "identiT.impressum.mail" %}}  
 
 ## Redaktionell verantwortlich
-Thorger Jansen
+{{% param "identiT.redaktion.name" %}}  
 
 Quelle: [eRecht24](https://www.e-recht24.de/)
 
@@ -98,12 +98,12 @@ möglich.
 ### Hinweis zur verantwortlichen Stelle
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Thorger Jansen  
-Im Westenfeld 28  
-44801 Bochum
+{{% param "identiT.privacy.name" %}}  
+{{% param "identiT.privacy.street" %}}  
+{{% param "identiT.privacy.city" %}}  
 
-Telefon: (DE) 15757214751  
-E-Mail: Admin@Trans.NRW
+Telefon: {{% param "identiT.privacy.phone" %}}  
+E-Mail: {{% param "identiT.impressum.mail" %}}  
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über
 die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)
