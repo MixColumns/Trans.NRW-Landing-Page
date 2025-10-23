@@ -40,3 +40,5 @@ defaultContentLanguageInSubdir = true
   [params.identiT]
       [params.identiT.Forum]
           URL = 'https://forum.trans.nrw'
+      [params.identiT.Map]
+          URL = 'https://map.trans.nrw'

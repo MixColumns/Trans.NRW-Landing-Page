@@ -4,3 +4,6 @@ footer.attributions = 'Attributions'
 footer.links = "Links"
 footer.forum = 'Forum'
 footer.legals = 'Legal'
+
+nav.home = 'Home'
+nav.communitymap = 'Map'
