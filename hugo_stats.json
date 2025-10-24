@@ -29,6 +29,7 @@
       "ul"
     ],
     "classes": [
+      "[background:inherit]",
       "[border-image:var(--trans-gradient)_1_1]",
       "bg-[]",
       "bg-[url(/images/background.png)]",
@@ -94,7 +95,9 @@
       "underline",
       "w-10",
       "w-[256px]",
-      "wrap-break-word"
+      "wrap-break-word",
+      "z-10",
+      "z-5"
     ],
     "ids": [
       "1-datenschutz-auf-einen-blick",
