@@ -9,6 +9,8 @@
     --white: #fff;
 
     --trans-flag: linear-gradient(90deg,var(--trans-blue) 0%,var(--trans-blue) 20%,var(--trans-pink) 20%,var(--trans-pink) 40%,var(--white) 40%,var(--white) 60%,var(--trans-pink) 60%,var(--trans-pink) 80%,var(--trans-blue) 80%,var(--trans-blue) 100%);
+
+    --trans-gradient: linear-gradient(to right,var(--trans-blue),var(--trans-pink));
 }
 
 main {
