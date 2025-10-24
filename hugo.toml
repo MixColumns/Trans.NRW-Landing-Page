@@ -38,6 +38,8 @@ defaultContentLanguageInSubdir = true
 
 [params]
   [params.identiT]
+      [params.identiT.Teamspeak]
+          URL = 'https://ts.trans.nrw'
       [params.identiT.Forum]
           URL = 'https://forum.trans.nrw'
       [params.identiT.Map]
