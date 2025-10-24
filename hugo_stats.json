@@ -30,6 +30,8 @@
     ],
     "classes": [
       "[border-image:var(--trans-gradient)_1_1]",
+      "bg-[]",
+      "bg-[url(/images/background.png)]",
       "bg-inherit",
       "bg-zinc-800",
       "border-2",
