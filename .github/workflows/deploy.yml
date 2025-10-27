@@ -44,3 +44,14 @@ jobs:
         local-dir: ./public/
         server-dir: /
         protocol: ftps
+
+    - name: Copy site to VServer via SSH
+      uses: burnett01/rsync-deployments@7.1.0
+      with:
+        switches: -avz --delete --rsync-path="rsync" --exclude='.git' --exclude='.github'
+        path: "./public/"
+        remote_path: "/var/www/trans.nrw/html/"
+        remote_host: ${{ secrets.SERVER_IP }}
+        remote_user: ${{ secrets.SERVER_USER }}
+        remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        remote_port: 2222
