@@ -31,7 +31,6 @@
     "classes": [
       "[background:inherit]",
       "[border-image:var(--trans-gradient)_1_1]",
-      "bg-[url(/images/background.png)]",
       "bg-fixed",
       "bg-inherit",
       "bg-zinc-800",
