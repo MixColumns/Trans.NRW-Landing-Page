@@ -1,9 +1,12 @@
 footer.impressum = 'Impressum'
 footer.privacy = 'Datenschutzerklärung'
 footer.attributions = 'Zuschreibungen'
+footer.legals = 'Rechtliches'
+
 footer.links = "Socials"
 footer.forum = 'Forum'
-footer.legals = 'Rechtliches'
+footer.teamspeak = 'TeamSpeak'
 
 nav.home = 'Home'
 nav.communitymap = 'Karte'
+

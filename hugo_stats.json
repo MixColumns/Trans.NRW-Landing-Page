@@ -31,7 +31,6 @@
     "classes": [
       "[background:inherit]",
       "[border-image:var(--trans-gradient)_1_1]",
-      "bg-[]",
       "bg-[url(/images/background.png)]",
       "bg-fixed",
       "bg-inherit",
@@ -138,7 +137,6 @@
       "speicherdauer-der-kommentare",
       "speicherung-der-ip-adresse",
       "ssl--bzw-tls-verschlüsselung",
-      "warum-nutzt-ihr-kein-discord",
       "was-ist-das-ganze-hier",
       "welche-rechte-haben-sie-bezüglich-ihrer-daten",
       "wer-ist-verantwortlich-für-die-datenerfassung-auf-dieser-website",
@@ -147,7 +145,6 @@
       "widerspruchsrecht-gegen-die-datenerhebung-in-besonderen-fällen-sowie-gegen-direktwerbung-art-21-dsgvo",
       "wie-erfassen-wir-ihre-daten",
       "willkommen-3",
-      "wo-kann-man-euch-finden",
       "wo-kann-man-uns-finden",
       "wofür-nutzen-wir-ihre-daten",
       "zuschreibungen"

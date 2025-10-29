@@ -1,9 +1,11 @@
 footer.impressum = 'Imprint'
 footer.privacy = 'Privacy'
 footer.attributions = 'Attributions'
+footer.legals = 'Legal'
+
 footer.links = "Links"
 footer.forum = 'Forum'
-footer.legals = 'Legal'
+footer.teamspeak = 'TeamSpeak'
 
 nav.home = 'Home'
 nav.communitymap = 'Map'
